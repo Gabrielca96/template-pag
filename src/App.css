@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #000000 !important;  /* Fonde de todo (elementos que no cubran todo el espacio se les hara visible este espacio */
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -243,7 +243,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(24, 34, 105, 1) -5.91%, rgba(80, 186, 227, 1) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -306,7 +306,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #151515;  /*  Color del menu que contiene al carrucel       */
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -389,7 +389,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, rgba(24, 34, 105, 1) -5.91%, rgba(80, 186, 227, 1) 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -421,7 +421,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, rgba(24, 34, 105, 1) -5.91%, rgba(80, 186, 227, 1) 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -468,7 +468,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, rgba(24, 34, 105, 1) -5.91%, rgba(80, 186, 227, 1) 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -599,7 +599,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, rgba(24, 34, 105, 1) -5.91%, rgba(80, 186, 227, 1) 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
@@ -616,3 +616,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/************ Whatsapp-Botton ************/
+.whatsapp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90.21deg, rgba(24, 34, 105, 1) -5.91%, rgba(80, 186, 227, 1) 111.58%);
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.whatsapp-input {
+  width: 60%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+
+.whatsapp-botton {
+  width: 40%;
+  padding: 10px;
+  font-size: 18px;
+  background: linear-gradient(90.21deg, rgba(24, 34, 105, 1) -5.91%, rgba(80, 186, 227, 1) 111.58%);
+  color: white;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+

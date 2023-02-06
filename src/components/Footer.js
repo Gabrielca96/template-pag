@@ -5,7 +5,11 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
+import WhatsAppRedirect from './WhatsAppButton';
+
 export const Footer = () => {
+  const phoneNumber = '56951486792';
+
   return (
     <footer className="footer">
       <Container>
@@ -21,7 +25,9 @@ export const Footer = () => {
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
+            
           </Col>
+          <WhatsAppRedirect phoneNumber={phoneNumber}/>
         </Row>
       </Container>
     </footer>
